@@ -4,12 +4,23 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
     "inquirer": "^8.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tasevski87/Note-Taker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Tasevski87/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/Tasevski87/Note-Taker#readme"
 }
